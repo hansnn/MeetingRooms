@@ -1,0 +1,32 @@
+div {
+	width: 40em;
+	margin: 15em auto 0 auto;
+}
+.btn {
+	display: block;
+	width: 7em;
+	height: 3em;
+	border-radius: 5px;
+	background-color: #515151;
+	color: #00b4ff;
+	border: 1px solid #515151;
+	text-decoration: none;
+	font-size: 2em;
+	line-height: 3em;
+	text-align: center;
+	overflow: hidden;
+}
+.btn:hover {
+	border: 1px solid #00b4ff;
+}
+.btn:first-child {
+	float: left;
+}
+.btn:last-child {
+	float: right;
+}
+p {
+	clear: both;
+	text-align: center;
+	color: #515151;
+}

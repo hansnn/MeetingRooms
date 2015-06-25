@@ -1,0 +1,37 @@
+#left {
+	float: left;
+}
+#right {
+	float: right;
+}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #515151;
+	text-align: center;
+}
+span {
+	font-size: 0.4em;
+	font-weight: none;
+}
+h1:first-letter {
+	text-transform: capitalize;
+}
+.room {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #00b4ff;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.room:hover {
+	text-decoration: underline;
+}
+p {
+	color: #515151;
+}
+@media screen and (max-width: 1024px) {
+	#right, #left {
+		float: none;
+	}
+}

@@ -1,0 +1,14 @@
+textarea {
+	width: 30em;
+	height: 10em;
+	color: #515151;
+}
+form:first-child {
+	margin: 1em auto 3em auto;
+}
+h2 {
+	font-size: 1.3em;
+	color: #00b4ff;
+	text-transform: capitalize;
+	font-weight: bold;
+}

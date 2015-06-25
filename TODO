@@ -1,0 +1,49 @@
+[FIXED] Fix processedits (it only commits the last meeting in a textarea)
+
+[FIXED] Fix sort_by_date function in all_meetings.php, and fix sorting in general
+
+[FIXED] See 'TODO' in rediger.php
+
+[FIXED] Create stylesheets
+
+[FIXED] Commas are not included
+
+[FIXED] Some dates are not parsed correctly in database.php. see commit_file_to_db(), parse_line() and format_datetime()
+
+[FIXED] The .csv file contains some fields with only 1 column that are erronously included
+
+[FIXED] Fix date representations
+
+[FIXED] Create secure login
+
+[FIXED] Link to pages in footer for admins
+
+[FIXED] Secure database connection by removing password from available script/domain
+
+[FIXED] Remove "organizer" field from database and code
+
+[FIXED] See TODO in processupload.php
+
+[FIXED] Internet explorer <hr> tags are missing in all_meetings
+
+[FIXED] Improve intelligence on processedits.php, see create_meeting_object
+
+[FIXED] Notice when meeting is not processed correctly, see processedits and more
+
+[FIXED] Last updated notice in views
+
+[FIXED] Last updated is misleading
+
+Automatically detect which meeting is being uploaded AND post a warning if it's not the same as $_POST['RoomName']
+
+Don't trust uploaded files, make sure not executable
+
+Test uploading after changing file permissions in filezilla
+
+Security:
+	SQL injection
+	Login
+	General injection in forms
+
+
+[NOPE data vil ikke være 100% korrekt] Ability to search for available rooms on certain times
